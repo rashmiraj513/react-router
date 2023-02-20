@@ -1,0 +1,16 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "Axios API",
+      "datetime": "February 19, 2023 9:43:50 PM",
+      "body": "This post is created to test whether new post functionality is working with axios API or not."
+    },
+    {
+      "id": 3,
+      "title": "Final Testing",
+      "datetime": "February 19, 2023 9:44:02 PM",
+      "body": "This is the body of new post."
+    }
+  ]
+}

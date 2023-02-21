@@ -2,15 +2,21 @@
   "posts": [
     {
       "id": 1,
-      "title": "Axios API",
-      "datetime": "February 19, 2023 9:43:50 PM",
+      "title": "Newly Added with axios API",
+      "datetime": "February 20, 2023 10:51:16 PM",
       "body": "This post is created to test whether new post functionality is working with axios API or not."
     },
     {
+      "id": 2,
+      "title": "Lorem Ipsum Random Text Generator",
+      "datetime": "February 20, 2023 11:19:43 PM",
+      "body": "This post is created to test whether delete post functionality is working with axios API or not."
+    },
+    {
       "id": 3,
-      "title": "Final Testing",
-      "datetime": "February 19, 2023 9:44:02 PM",
-      "body": "This is the body of new post."
+      "title": "First Post",
+      "datetime": "February 20, 2023 11:25:48 PM",
+      "body": "This post is created to test whether delete post functionality is working with axios API or not."
     }
   ]
 }

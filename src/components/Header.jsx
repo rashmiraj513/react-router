@@ -1,11 +1,14 @@
 import { Link } from 'react-router-dom';
 import { FaTabletAlt, FaMobileAlt, FaLaptop } from 'react-icons/fa';
+import { useContext } from 'react';
+import DataContext from '../context/DataContext';
 
-const Header = ({ title, search, setSearch, width }) => {
+const Header = () => {
+  const { width, search, setSearch } = useContext(DataContext);
   return (
     <header className='header'>
       <div id='logo'>
-        <p>{title}</p>
+        <p>Blogger</p>
         <p>
           {width < 768 ? (
             <FaMobileAlt />
@@ -17,7 +20,11 @@ const Header = ({ title, search, setSearch, width }) => {
         </p>
       </div>
       <nav className='nav'>
-        <form className='searchForm' onClick={(e) => e.preventDefault()}>
+        <form
+          className='searchForm'
+          onClick={(e) => e.preventDefault()}
+          onSubmit={(e) => e.preventDefault()}
+        >
           <label htmlFor='search'>Search Posts</label>
           <input
             type='text'
